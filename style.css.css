@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.todo{
+      margin: auto;
+      margin-top: 20px;
+      width: 30%;
+      height: auto;
+      border: 4px solid rgb(86, 86, 141); 
+         
+      border-radius: 20px;
+}
+body > div > p {
+    color: antiquewhite;
+    font-family: 'Rubik', sans-serif;   
+    font-size: 30px;
+    text-align: center;
+    margin:20px;
+}
+#input-container {
+    position: relative;
+}
+#input-container > i {
+    top: 27px;
+    left: 88%;
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#input-container > input {
+    font-family:sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    padding: 25px;
+    width: 85%;
+    margin: 10px;
+    background-color: rgb(168, 168, 206);
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+}
+#unOrdered > li{
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    font-size: 22px;
+    padding: 8px;
+    background-color: rgb(222, 222, 250);
+    border-radius: 10px;
+    margin: 6px 3px 6px 3px;
+
+}
+#unOrdered > li > button {
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin: auto;
+    padding: 3px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(251,34,34,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    border-radius: 6px;
+}
